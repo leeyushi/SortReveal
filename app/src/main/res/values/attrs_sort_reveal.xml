@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SortRevealLayout">
+        <attr name="hotLabelSize" format="integer" />
+        <attr name="hotLabelColor" format="integer" />
+        <attr name="hotLabelStartMargin" format="integer" />
+        <attr name="hotLabelTopMargin" format="integer" />
+        <attr name="hotValueTopMargin" format="integer" />
+        <attr name="hotValueStartMargin" format="integer" />
+        <attr name="hotValueSize" format="integer" />
+        <attr name="hotValueColor" format="integer" />
+        <attr name="hotValueHorizontalPadding" format="integer" />
+        <attr name="hotValueVerticalPadding" format="integer" />
+        <attr name="sortNameTopMargin" format="integer" />
+        <attr name="sortNameLineTopMargin" format="integer" />
+        <attr name="sortValueTopMargin" format="integer" />
+        <attr name="sortValueVerticalPadding" format="integer" />
+        <attr name="sortNameVerticalPadding" format="integer" />
+        <attr name="sortNameLineSize" format="integer" />
+        <attr name="sortValueSize" format="integer" />
+        <attr name="sortNameSize" format="integer" />
+        <attr name="sortNameStartMargin" format="integer" />
+        <attr name="sortValueStartMargin" format="integer" />
+        <attr name="sortNameLineColor" format="color" />
+        <attr name="sortNameColor" format="color" />
+        <attr name="sortValueColor" format="color" />
+        <attr name="hotValueLineType" format="enum">
+            <enum name="append" value="0" />
+            <enum name="center" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

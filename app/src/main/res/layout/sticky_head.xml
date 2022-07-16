@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="热门地区/国家"
+        android:textSize="16dp" />
+
+    <com.yushi.sortreveal.floating.LineFeedLayout
+        android:id="@+id/ffl_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:lineShowType="append"
+        app:horizontalPadding="10"
+        app:open_test_item="true">
+
+    </com.yushi.sortreveal.floating.LineFeedLayout>
+
+
+</LinearLayout>
