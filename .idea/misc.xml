@@ -5,6 +5,9 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.28187919463087246" />
         <entry key="app/src/main/res/layout/activity_sticky.xml" value="0.24721425374348954" />
+        <entry key="app/src/main/res/layout/group_view.xml" value="0.29411764705882354" />
+        <entry key="app/src/main/res/layout/item_ui.xml" value="0.2099099099099099" />
+        <entry key="app/src/main/res/layout/sticky_head.xml" value="0.2702702702702703" />
       </map>
     </option>
   </component>

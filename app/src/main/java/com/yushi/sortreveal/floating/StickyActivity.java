@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -96,6 +97,9 @@ public class StickyActivity extends AppCompatActivity {
             TextView textView = new TextView(this);
             ViewGroup.LayoutParams layoutParams = new ViewGroup.MarginLayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
             textView.setText(testValue);
+            textView.setOnClickListener(v -> {
+                Toast.makeText(this, testValue, Toast.LENGTH_SHORT).show();
+            });
             feedLayout.addView(textView, layoutParams);
         }
 //        sortItemDecoration.setHeadView(headView);
